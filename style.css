@@ -1,0 +1,168 @@
+
+
+
+
+*{
+    /* background-image: url(/images/slide_greendark.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; */
+    background-color: black;
+
+}
+.LOGO{
+    width: 10%;
+    height:10%;
+    margin-right: 5%;
+}
+.navigation,ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15%;
+    margin-right: 30%;
+    align-items: center;
+    
+    
+    
+}
+.connect{
+    display: flex;
+     padding: 1%,50%,0%,50%;
+     border-radius: 10%;
+     color: azure;
+     background-color: green;
+     
+
+}
+.top{
+    display: block;
+    display: flex;  
+}
+
+.trusted{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+    color: white;
+
+}
+.secure{
+    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+}
+.crypto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+    color: aqua;
+}
+.exchange{
+    color: white;
+    font-size: 300%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.subtext{
+    color:gainsboro;
+}
+.start{
+    padding: 5%;
+    background-color: greenyellow;
+     border-radius: 10%;
+ }
+ .words{
+    
+ }
+ .image1{
+    margin-left: 10%;
+ }
+.two{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .green{
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+    border-color: greenyellow;
+    border-width: 100%;
+    background-color: greenyellow;
+    margin-top: 0%;
+    padding: 5%;
+} */
+.word2{
+    display: flex;
+    justify-content: space-around;
+}
+.buy{
+    color: aliceblue;
+    
+}
+.view{
+    
+    color: green;
+}
+
+
+
+.head{
+    text-align: center;
+    /* border: solid white; */
+   color: white;
+   border-collapse: collapse;
+   margin: 0 auto;
+   /* text-align: center; */
+   width: 100%;
+   background-color: rgb(26, 26, 38);
+}
+.title{
+     display: inline;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 170px;
+}
+.icon{
+    margin-right: 50%;
+}
+.table{
+    /* display: inline-table; */
+    border: solid none;
+    height: 60px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+/* .subs img{ */
+    /* height: 100px; */
+    /* width: 80px; */
+/* } */
+.percent{
+    color: green;
+}
+.percent1{
+    color: red;
+}
+.but1{
+    margin-left: 60%;
+    width: 80px;
+    height: 40px;
+    color: white;
+    border: solid none;
+    border-radius: 20px;
+    background: linear-gradient(190deg, rgb(241, 115, 166) 13%, rgb(247, 5, 126) 100%);
+}
+.but{
+    margin-left: 60%;
+    width: 80px;
+    height: 40px;
+    color: white;
+    border:1px solid lightpink;
+    border-radius: 20px;
+    background: none;
+    /* background: linear-gradient(190deg, rgb(241, 115, 166) 13%, rgb(247, 5, 126) 100%); */
+}
+/* .chartb{ */
+    /* margin-left: 60%; */
+/* } */
+/* .chartr{ */
+    /* margin-left: 60%; */
+/* } */
