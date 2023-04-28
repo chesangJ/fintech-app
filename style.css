@@ -22,16 +22,24 @@
     gap: 15%;
     margin-right: 30%;
     align-items: center;
+    justify-content: space-between;
     
     
     
 }
+li,a{
+    color: azure;
+}
+.home{
+    color: greenyellow;
+}
 .connect{
     display: flex;
-     padding: 1%,50%,0%,50%;
+     padding: 20%;
      border-radius: 10%;
      color: azure;
-     background-color: green;
+     background:linear-gradient(45deg rgb(40, 102, 55),green)
+
      
 
 }
@@ -158,11 +166,40 @@
     border:1px solid lightpink;
     border-radius: 20px;
     background: none;
-    /* background: linear-gradient(190deg, rgb(241, 115, 166) 13%, rgb(247, 5, 126) 100%); */
+
 }
-/* .chartb{ */
-    /* margin-left: 60%; */
-/* } */
-/* .chartr{ */
-    /* margin-left: 60%; */
-/* } */
+.graph{
+    margin-left: 60%;
+}
+.easy{
+ color: azure;
+font-size: x-large;
+
+}
+.text1{
+    color: gainsboro;
+}
+.glass1{
+    border: solid;
+    border-color: green;
+    align-items: center;
+    padding: 5%;
+border-radius: 10%;
+background:linear-gradient(45deg,rgb(36, 68, 67),black)
+}
+.glass2{
+    border: solid;
+    border-color: green;
+    align-items: center;
+    padding: 5%;
+border-radius: 10%;
+background:linear-gradient(45deg,rgb(36, 68, 67),black)
+}
+.text2{
+    color: gainsboro;
+}
+.best{
+    color: azure;
+    font-size: x-large;
+}
+
