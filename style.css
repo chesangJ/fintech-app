@@ -8,8 +8,11 @@
     background-size: cover;
     width: 100%;
     height: 100vh; */
-    background-color: black;
+    
 
+}
+body{
+    background-color: black;
 }
 .LOGO{
     width: 10%;
@@ -139,10 +142,7 @@ li,a{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
 }
-/* .subs img{ */
-    /* height: 100px; */
-    /* width: 80px; */
-/* } */
+
 .percent{
     color: green;
 }
@@ -179,20 +179,40 @@ font-size: x-large;
 .text1{
     color: gainsboro;
 }
+.wallet{
+    margin-left: 30%;
+    
+}
 .glass1{
-    border: solid;
+
+    color: gainsboro;
+    height: 250px;
+    width: 250px;
+    
+    border: solid aqua;
+    background:linear-gradient(45deg,rgb(36, 68, 67),black);
+    border-radius:10% ;
+     padding: 10%; 
+    /* border: solid;
     border-color: green;
-    align-items: center;
-    padding: 5%;
-border-radius: 10%;
-background:linear-gradient(45deg,rgb(36, 68, 67),black)
+    border-width: 20%;
+    
+/* border-radius: 10%;
+ */
+
 }
 .glass2{
-    border: solid;
+    border: solid aqua;
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    padding: 10%;
+    /* border: solid;
     border-color: green;
-    align-items: center;
-    padding: 5%;
-border-radius: 10%;
+    border-width: 20%;
+/* margin-right: 70%; */
+    /* padding: 4%; */
+ 
 background:linear-gradient(45deg,rgb(36, 68, 67),black)
 }
 .text2{
@@ -202,4 +222,287 @@ background:linear-gradient(45deg,rgb(36, 68, 67),black)
     color: azure;
     font-size: x-large;
 }
+.glass3{
+    border: solid aqua;
+    width: 120px;
+    height: 120px;
+    padding: 10%;
+    border-radius: 10%;
+    margin-top: 15%;
+    
+background:linear-gradient(45deg,rgb(36, 68, 67),black)
 
+
+
+}
+.vault{
+    color: azure;
+    font-size: x-large;
+}
+.text3{
+    color: gainsboro;
+    
+}
+.box1{
+    display: flex;
+    gap: 5%;
+    
+}
+.text4{
+    color: gainsboro;
+    font-size: xx-large;
+    
+}
+.text5{
+    color: gainsboro;
+
+}
+.but2{
+    background-color: greenyellow;
+    padding: 10px;
+    border-radius: 10%;
+    /* background-color: black; */
+}
+.glass4{
+    margin-top: 16%;
+}
+.invest{
+    color: greenyellow;
+    font-size: smaller;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.Smart{
+    color: gainsboro;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lorem{
+    color: gainsboro;
+    font-size: small;
+}
+.but3{
+    border-color:greenyellow ;
+    color: chartreuse;
+    border-radius: 10%;
+    padding: 3%;
+    background-color: black;
+}
+.purple{
+    background-color: cornflowerblue;
+    width: 250px;
+    height: 350px;
+    border-radius: 10%;
+    text-align: center;
+    
+    
+     
+}
+
+/* .country{
+    color: gainsboro;
+    text-align: center;
+    padding: 10%;
+} */
+.pink{
+    background-color: pink;
+    width: 250px;
+    height: 350px;
+    border-radius: 10%;
+    margin-top: 8%;
+    text-align: center;
+
+}
+.two2{
+    display: flex;
+    gap: 5%;
+}
+.text6{
+    margin-top: 10%;
+}
+.image{
+    
+    width: 700px;
+    margin-top: 10%;
+    border-width: 200%;
+    
+}
+.text7{
+    color: gainsboro;
+    font-size: xx-large;
+}
+.text8{
+    color: gainsboro;
+}
+
+.red {
+    border: solid aqua;
+    width: 50px;
+    height: 50px;
+    padding: 3%;
+    border-radius: 10%;
+    margin-top: 15%;
+    
+background:linear-gradient(45deg,rgb(36, 68, 67),black)
+
+}
+.green{
+    border: solid aqua;
+    width: 50px;
+    height: 50px;
+    padding: 3%;
+    border-radius: 10%;
+    margin-top: 15%;
+    
+background:linear-gradient(45deg,rgb(36, 68, 67),black)
+
+}
+.lapil{
+    border: solid aqua;
+    width: 50px;
+    height: 50px;
+    padding: 2%;
+    border-radius: 10%;
+    margin-top: 15%;
+    
+background:linear-gradient(45deg,rgb(36, 68, 67),black)
+
+
+}
+.first{
+    color: gainsboro;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.we{
+    color: gainsboro;
+    font-size: medium;
+
+}
+.second{
+    color: gainsboro;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.market{
+    color: gainsboro;
+    font-size: medium;
+
+}
+.third{
+    color: gainsboro;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.support{
+    color: gainsboro;
+    font-size: medium;
+}
+.people1{
+    display: flex;
+    gap: 2%;
+}
+.people2{
+    display: flex;
+    gap: 2%;
+
+}
+.people3{
+    display: flex;
+    gap: 2%;
+
+}
+.three{
+    display: flex;
+}
+.platform{
+    margin-top: 15%;
+}
+.brand{
+display: flex;
+gap: 3%;
+margin-top: 10%;
+}
+.google{
+    width: 10%;
+    border: solid gainsboro;
+    border-radius: 22%;
+}
+.apple{
+    width: 10%;
+    border: solid gainsboro;
+    border-radius: 22%;
+}
+.build{
+    color: gainsboro;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.powerfull{
+    color: gainsboro;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.get{
+    color: greenyellow;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.four{
+    display: flex;
+    margin-top: 10%;
+}
+.Ready{
+    color: greenyellow;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.users{
+    color: gainsboro;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ /* .email{
+    border-radius: 10%;
+    background-color: rgb(39, 39, 52);
+    width: 27%;
+    padding: 2%;
+ }
+ .start1{
+    background-color: greenyellow;
+    border-radius: 10%;
+    padding: 2%;
+ } */
+ .five{
+    text-align: center;
+    background-color: rgb(26, 26, 38);
+    padding: 5%;
+ }
+ input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: rgb(40, 40, 41);
+    padding: 20px;
+    font-weight: 14px;
+    width: 25%;
+    border-radius: 10%;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 16px 20px;
+    background-color: greenyellow;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+ 
